@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "importsNotUsedAsValues": "preserve",
+    "moduleResolution": "node",
+    "outDir": "./dist/"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
